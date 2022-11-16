@@ -7,6 +7,8 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
 using HaMovil.Models;
 
+
+// CHECK IF IN
 namespace HaMovil.Controllers
 {
     public class HomeController : Controller
