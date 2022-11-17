@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Text;
 using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore;
+using HaMovil.Models;
 
 namespace HaMovil.Data
 {
@@ -12,5 +13,6 @@ namespace HaMovil.Data
             : base(options)
         {
         }
+        public DbSet<HaMovil.Models.Client> Client { get; set; }
     }
 }
